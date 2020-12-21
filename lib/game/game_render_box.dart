@@ -81,6 +81,7 @@ class GameRenderBox extends RenderBox with WidgetsBindingObserver {
   }
 
   @override
+  // ignore: override_on_non_overriding_member
   Size computeDryLayout(BoxConstraints constraints) {
     return constraints.biggest;
   }
